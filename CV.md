@@ -17,11 +17,11 @@ I am a student, who aspires to be a prominent FullStack developer. I am currentl
 
 ## Strengths
 
-*Sociable
-*Strong Willed
-*Fast Learner
-*Critical Thinker
-\*Team Player
+- Sociable
+- Strong Willed
+- Fast Learner
+- Critical Thinker
+- Team Player
 
 ## Work Experience
 

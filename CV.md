@@ -60,3 +60,7 @@ while (true)
 }
 
 ```
+
+---
+
+©Copyright Vadim Podlipny 2024

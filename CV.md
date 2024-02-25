@@ -26,3 +26,15 @@ I am a student, who aspires to be a prominent FullStack developer. I am currentl
 ## Work Experience
 
 None
+
+## Skills
+
+- С#   [=====     ]
+- Java [=         ]
+- HTML [=         ]
+
+## English Skills
+
+* C1
+* Self-Taught
+* Unlicensed

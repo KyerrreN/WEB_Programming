@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vadim Podlipny CV</title>
+  </head>
+  <body style="margin: 0; padding: 0">
+    <div class="wrapper" style="width: 1200px; margin: 0 auto">
+      <!-- Заголовок сайта-->
+      <header
+        style="text-align: center; background-color: #000000; color: white"
+      >
+        <h1 style="text-align: center">My CV</h1>
+      </header>
+      <!-- Начало таблицы-->
+      <main>
+        <table
+          style="
+            width: 100%;
+            border: 2px solid black;
+            border-collapse: collapse;
+          "
+        >
+          <tr>
+            <!-- Левая часть таблицы-->
+            <td
+              style="
+                background-color: #dbbd58;
+                text-align: center;
+                width: 50%;
+                vertical-align: top;
+              "
+            >
+              <!-- Имя и картинка-->
+              <h1>Vadim Podlipny</h1>
+              <img
+                src="it_guy.png"
+                alt="Error: picture not found"
+                height="400"
+                width="400"
+              />
+              <!-- Контактные данные-->
+              <h2>Contact Me</h2>
+              <nav>
+                Email:
+                <a href="mailto:kyerrrenmgt@gmail.com">kyerrrenmgt@gmail.com</a
+                ><br />Phone Number: <a href="tel:+1234567890">+1234567890</a>
+              </nav>
+            </td>
+
+            <!-- Правая часть таблицы-->
+            <td style="padding-left: 1%; width: 50%">
+              <!-- About me-->
+              <h2>About me</h2>
+              <p>
+                I am a student, who aspires to be a prominent FullStack
+                developer. I am currently studying in
+                <b>The Belarusian-Russian University</b>, and have passed three
+                semesters.
+              </p>
+
+              <!-- Strenths-->
+              <h2>Strengths</h2>
+              <ul>
+                <li>Sociable</li>
+                <li>Strong Willed</li>
+                <li>Fast Learner</li>
+                <li>Critical Thinker</li>
+                <li>Team Player</li>
+              </ul>
+
+              <!-- Work Experience-->
+              <h2>Work Experience</h2>
+              <p>None</p>
+
+              <!-- Skills-->
+              <h2>Skills</h2>
+              <table>
+                <tr>
+                  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;C#</td>
+                  <td><progress value="50" max="100"></progress></td>
+                </tr>
+
+                <tr>
+                  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Java</td>
+                  <td><progress value="10" max="100"></progress></td>
+                </tr>
+
+                <tr>
+                  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;HTML</td>
+                  <td><progress value="10" max="100"></progress></td>
+                </tr>
+              </table>
+
+              <!-- English Skills-->
+              <h2>English Skills</h2>
+              <ul>
+                <li>C1</li>
+                <li>Self-Taught</li>
+                <li>Unlicensed</li>
+              </ul>
+
+              <!-- Code Example-->
+              <h2>Code Example</h2>
+              <pre>
+                <code>
+while (true)
+{
+    Console.Write("Приветствуем вас в фильмопрокате.\n" +
+                "Навигация: главное меню\n\n" +
+                "Выберите действие\n" +
+                "1. Ввести новый фильм\n" +
+                "2. Редактирование фильма\n" +
+                "3. Удаление фильма\n" +
+                "4. Вывод всех фильмов в виде таблицы\n" +
+                "5. Поиск фильма по критерию\n" +
+                "6. Сортировка по критерию\n\n" +
+                "7. Выйти из программы\n\n" +
+                "Ваш выбор - ");
+    Enum.TryParse(Console.ReadLine(), 
+    out MenuChoice menuChoice);
+}
+                </code>
+            </pre>
+            </td>
+          </tr>
+        </table>
+      </main>
+      <footer style="text-align: center">
+        <br />©Copyright Vadim Podlipny 2024
+      </footer>
+    </div>
+  </body>
+</html>

@@ -29,9 +29,9 @@ None
 
 ## Skills
 
-- С#   [=====     ]
-- Java [=         ]
-- HTML [=         ]
+- С# [=====] 50%
+- Java [=] 10%
+- HTML [=] 10%
 
 ## English Skills
 
